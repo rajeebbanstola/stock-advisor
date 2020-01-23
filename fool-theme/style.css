@@ -1,0 +1,26 @@
+/*
+ Theme Name:   The Motley Fool Child Theme
+ Theme URI:    https://www.fool.com/
+ Description:  The Motley Fool Child Theme
+ Author:       John Doe
+ Author URI:   https://www.fool.com/
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  https://www.fool.com/
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  fool
+*/
+
+/** Stock Recommendation Article **/
+.single-stock_recommendation .post-inner{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-logo{
+    display: inline-block;
+    margin: 0 auto;
+}
